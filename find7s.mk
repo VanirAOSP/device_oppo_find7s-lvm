@@ -33,4 +33,4 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-dal
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
 
 # Inherit from find7-common
-$(call inherit-product, device/oppo/find7-common/find7.mk)
+$(call inherit-product, device/oppo/find7-common-lvm/find7.mk)

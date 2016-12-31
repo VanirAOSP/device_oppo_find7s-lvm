@@ -15,7 +15,7 @@
 #
 
 # Inherit from find7-common
--include device/oppo/find7-common/BoardConfigCommon.mk
+-include device/oppo/find7-common-lvm/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := find7,find7s,FIND7,X9076,X9077
@@ -26,4 +26,4 @@ GREEN_LED_PATH := "/sys/class/leds/led:rgb_green/brightness"
 BLUE_LED_PATH := "/sys/class/leds/led:rgb_blue/brightness"
 
 # Properties
-TARGET_SYSTEM_PROP += device/oppo/find7s/system.prop
+TARGET_SYSTEM_PROP += device/oppo/find7s-lvm/system.prop
